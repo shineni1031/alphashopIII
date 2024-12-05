@@ -1,10 +1,10 @@
 # ahphashop III
 
 ## 專案說明
-使用react框架,製作購物流程的頁面
-![購物步驟1](https://github.com/shineni1031/ahphashopIII/blob/main/ALPHA%20Shop%20-%20Address.png)  
-![購物步驟2](https://github.com/shineni1031/ahphashopIII/blob/main/ALPHA%20Shop%20-%20Shipping.png)
-![購物步驟3](https://github.com/shineni1031/ahphashopIII/blob/main/ALPHA%20Shop%20-%20Checkout.png)
+使用react框架,製作購物流程的頁面，畫面如下：
+![購物步驟1](https://github.com/shineni1031/alphashopIII/blob/main/src/assets/ALPHA%20Shop%20-%20Address.png)  
+![購物步驟2](https://github.com/shineni1031/alphashopIII/blob/main/src/assets/ALPHA%20Shop%20-%20Shipping.png)
+![購物步驟3](https://github.com/shineni1031/alphashopIII/blob/main/src/assets/ALPHA%20Shop%20-%20Checkout.png)
 
 ## 開發進度
 ### 步驟1.完成畫面切版,包含左半邊結帳表單與右半邊購物車  
