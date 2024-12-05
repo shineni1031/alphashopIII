@@ -1,0 +1,29 @@
+main {
+  
+  padding: 80px;
+  
+}
+.checkout-title {
+  width: 90%;
+  font-size: 32px;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+}
+.progress-block {
+  flex: 3;
+}
+@media screen and (max-width: 960px) {
+  .content {
+    all: unset;
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .progress-block {
+    all: unset;
+  }
+}

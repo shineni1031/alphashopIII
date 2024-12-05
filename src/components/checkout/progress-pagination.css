@@ -1,0 +1,78 @@
+.button-section {
+  height: 72px;
+  display: inline-block;
+  position: relative;
+  border-top: 1px solid #E6E6EB;
+  width: 100%;
+  font-size: 14px;
+}
+.button-section-m {
+  display: none;
+
+}
+
+.btn {
+  margin-top: 20px;
+  position: absolute;
+  border: 0px solid red;
+  border-radius: 8px;
+  height: 46px;
+  width: 174px;
+}
+
+.pre-btn {
+  left: 0;
+  color: #4A4A4A;
+  background: #FFFFFF;
+  text-align: start;
+  &::after {
+    content: '⟵ 上一步'
+  }
+}
+.pre-btn.first-step {
+  display: none;
+}
+.next-btn {
+  right: 0;
+  background: #F67599;
+  color: #ffffff;
+  text-align: center;
+  &::after {
+    content: '下一步 ⟶'
+  }
+}
+.next-btn.last-step {
+    &::after {
+    content: '確認下單'
+  }
+}
+
+@media screen and (max-width: 960px) {
+  
+  .button-section {
+    border-top: 1px solid #F0F0F5;
+    display: flex;
+    width: 100%;
+  }
+  .btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    height: 46px;
+    width: 156px;
+    align-items: center;
+  }
+  
+
+  .next-btn.first-step {
+    width: 100%;
+    height: 46px;
+  }
+  
+  .next-btn.last-step {
+    &::after {
+    content: '確認下單'
+    }
+  }
+}
